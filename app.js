@@ -8,6 +8,11 @@ app.get("/",function(req,res){
 });
 
 
-app.listen(3000,function(){
-  console.log("port 3000");
-})
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+
+app.listen(port, function() {
+  console.log("Server started Successfully");
+});
