@@ -1,0 +1,14 @@
+{
+  "name": "my-sorting-visualizer",
+  "version": "1.0.0",
+  "description": "sorting visualizer web app using nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shivam sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
